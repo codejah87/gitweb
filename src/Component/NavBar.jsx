@@ -76,7 +76,7 @@ const Navbar = () => {
 
         {/* Contact Us Button (regular Link, as it's a button and typically doesn't need active state highlighting) */}
         <Link to='/contact' onClick={() => setNavOpen(false)}>
-          <button className="py-3 text-white px-9 bg-indigo-600 cursor-pointer hover:bg-indigo-500 transition-all rounded-md">Contact Us</button>
+          <button className="border-none py-3 text-white px-9 bg-indigo-600 cursor-pointer hover:bg-indigo-500 transition-all rounded-md">Contact Us</button>
         </Link>
       </div>
     </div>

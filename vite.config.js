@@ -7,7 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  base:"/hakuna-solar"
-
-
+  base: "/matata-web"
 });

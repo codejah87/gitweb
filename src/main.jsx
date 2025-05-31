@@ -10,6 +10,7 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <ScrollToTop/>
     <App />
+    
   </BrowserRouter>
   </StrictMode>
 )

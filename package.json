@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage":"https://codejah87.github.io/hakuna-solar/",
+  "homepage": "https://codejah87.github.io/matata-web/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.7",
@@ -24,7 +23,6 @@
     "sweetalert2": "^11.22.0",
     "tailwindcss": "^4.1.7"
   },
-
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",

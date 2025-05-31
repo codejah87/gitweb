@@ -16,16 +16,12 @@ const App = () => {
      <Navbar/>
      
    <div className='w-full px-5 sm:px-8 xl:px-29'>
-    <Router>  
-
        <Routes>
          <Route path='/' element={<Home/>}/>
          <Route path='/service' element={<Service/>}/>
          <Route path='/product' element={<Product/>}/>
          <Route path='/contact' element={<Contact/>}/>
        </Routes>
-    </Router>
-
    </div>
    <WhatApp/>
    <Footer/>
