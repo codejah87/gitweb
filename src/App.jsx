@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './Pages/Home'
 import Navbar from './Component/NavBar'
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Product from './Pages/Product'
 import Contact from './Pages/Contact'
 import Footer from './Component/Footer'
