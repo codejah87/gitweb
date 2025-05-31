@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../Component/Title'
 import { assert } from '../assets/imag/ImageFile'
 import ProductItems from '../Component/ProductItems'
-import Warant from '../Component/warant'
+import Warant from '../Component/Warant'
 import {motion} from 'framer-motion'
 
 const Product = () => {
