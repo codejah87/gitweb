@@ -25,7 +25,7 @@
               location.search.slice(1) +
               location.hash
           );
-        } else if (location.pathname.startsWith('/hakuna-web/') && !location.pathname.includes('.')) {
+        } else if (location.pathname.startsWith('/hakuna-solar/') && !location.pathname.includes('.')) {
           // For gh-pages, you need to adjust this to include your repo name.
           // For example, if your repo is 'my-app', then it should be '/my-app/'
           sessionStorage.setItem('redirect', location.href);
@@ -34,7 +34,7 @@
               '//' +
               location.hostname +
               (location.port ? ':' + location.port : '') +
-              '/hakuna-web/?' +
+              '/hakuna-solar/?' +
               location.pathname.slice(1) +
               location.search +
               location.hash
