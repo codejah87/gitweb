@@ -27,7 +27,7 @@ const Warant = () => {
           <h1 className='text-blue-700 md:text-3xl lg:text-5xl my-3.5 font-semibold'>2 Years <span className='text-slate-400 text-3xl'>Warranty</span></h1>
 
           <div>
-              <div className='mt-10 md:1.5xl lg:text-2xl'><i className="ri-verified-badge-fill text-green-700 p-2 rounded-md  border-[1px]"></i>    Our Products are 99.9% Original</div>
+              <div className='mt-10 mb-10 md:1.5xl lg:text-2xl'><i className="ri-verified-badge-fill text-green-700 p-2 rounded-md  border-[1px]"></i>    Our Products are 99.9% Original</div>
           </div>
           
         </div>
