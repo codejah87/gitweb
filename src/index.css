@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    font-family: 'outfit', sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --m2-c:#CC9C00;
+    --t-c:#212529;
+    --s-c:#828F9B;
+    --b-c:#ffffff;
+    --m-c:#4361EE;
+   
+
+}
+
+.pop{
+    font-family: "poppins", sans-serif;
+}
+
+.fer{
+     font-family: "Fredoka", sans-serif;
+}
+
+
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 80%
+    }
+}
+
+section{
+    padding-top:8rem; 
+    padding-bottom: 3rem;
+   
+}
+
+
+.hero-con2{
+ display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    width: 100%;
+}
+
+.hero-bg{
+    background: url(./assets/imag/hero-bg2.jpeg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero-con{
+ display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+
+}
+
+.prod{
+    background: url(../src/assets/imag/her04.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+   
+}
+
+.prod-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.whatapp{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 100;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1.7px solid green;
+}
+
+.whatapp a{
+     color: green;
+    font-size: 40px;
+}
+@media (max-width:1000px) {
+    
+
+.navLink{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 250px;
+    height: 130vh;
+    background: var(--b-c);
+    z-index: 100;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding:7rem 2rem 0;
+    flex-direction: column;
+    gap: 2.5rem;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.layer{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 130vh;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+}
+
+.whatapp{
+    width: 45px;
+    height: 45px;
+}
+
+.whatapp a{
+    font-size: 30px;
+}
+}
+.navLink ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.btn{
+    padding: 15px 35px;
+    margin-top: 20px;
+    background:linear-gradient(45deg, orange,white,orange);
+    font-size: 17px;
+    border-radius:50px;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background:linear-gradient(75deg, orange,white,orange);
+    color: #333;
+}
+
+.scrollAnimate{
+    animation: scroll 40s linear infinite;
+    width: 1000px;
+}
+
+@keyframes scroll {
+    0%{
+        transform:translateX(100%)
+    }
+      100%{
+        transform:translateX(-100%)
+    }
+}
+
+@import "tailwindcss";
