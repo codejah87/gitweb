@@ -4,16 +4,37 @@ import { assert } from '../assets/imag/ImageFile'
 import ProductItems from '../Component/ProductItems'
 import Warant from '../Component/Warant'
 import {motion} from 'framer-motion'
+import Typed from 'typed.js';
 
 const Product = () => {
+
+// function MyComponent() {
+  // Create reference to store the DOM element containing the animation
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['100 Watts', '200 Watts', '300 Watts', '400 Watts'],
+      typeSpeed: 130,
+      loop:true,
+      backSpeed: 100,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
   return (
-   <section >
-    <div className=' mx-auto text-center  px-4 py-8 h-auto prod rounded-2xl flex flex-col  items-center justify-center  bg-cover bg-center)]'>
+  <div>
+    <div className=' mx-auto text-center h-auto prod rounded-2xl flex flex-col  items-center justify-center  bg-cover bg-center)]'>
       <h1 className='text-4xl sm:text-7xl text-amber-500 font-bold pop backdrop-blur-[1px] p-3'>Get your</h1>
      <h1 className=' text-7xl md:text-8xl font-bold mt-1 text-white backdrop-blur-[1px] p-3'>Powerful Solar Panel </h1>
-      <h3 className='text-6xl sm:text-7xl   lg:text-9xl font-bold mt- text-slate-100 pop backdrop-blur-[1px] p-3'>400 Watt</h3>
+      <h3 className='text-4xl sm:text-4xl   lg:text-5xl font-bold mt- text-slate-100 pop backdrop-blur-[1px] p-3'x>Type <span ref={el}> </span></h3>
     </div>
-     <div className='w-full pt-20'>
+    <section>
+
+     <div className='w-full '>
       <div className='flex flex-col md:flex-row justify-between items-center gap-10'>
         <motion.div
         initial={{opacity:0, x:-100}}
@@ -35,14 +56,16 @@ Your journey with Hakuna Matata Energy LTD doesn't end with installation. We pri
         whileInView={{opacity:1, x:0}}
         transition={{duration: 1.5}}
 className='w-full md:w-[40%] h-100'>
-  <img src={assert.hero5} alt="" className='rounded-2xl w-full h-100 object-cover'/>
+  <img src={assert.jj} alt="" className='rounded-2xl w-full h-100 object-cover'/>
 </motion.div>
       </div>
       
      </div>
    <ProductItems/>
    <Warant/>
-   </section>
+    </section>
+
+  </div>
   )
 }
 

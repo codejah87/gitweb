@@ -16,9 +16,9 @@ const Navbar = () => {
       <div className="relative w-60">
         <Link to="/">
           <img
-            src={assert.logo}
+            src={assert.logomain}
             alt="logo"
-            className="w-35 h-25 absolute -top-11" // Ensure these Tailwind/custom classes are defined
+            className="w-50 absolute -left-200px -top-26" // Ensure these Tailwind/custom classes are defined
           />
         </Link>
       </div>

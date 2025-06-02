@@ -62,7 +62,7 @@ const Brands = () => {
             <h2 className="text-slate-900 font-extrabold  text-[23px]">Felicity Product</h2>
           </div>
           <div className="w-full h-[1px] bg-slate-700 mb-9"></div>
-          <p className="text-slate-800 mb-4">Felicity Solar Felicity IVEM 5KVA 48V Solar System Hybrid Inverter</p>
+          <p className="text-slate-800 mb-4">Felicity Solar IVEM 5KVA 48V Solar System Hybrid Inverter</p>
           <span className="text-blue-400">
             <b className="text-black">Avaiable product:</b> Lithum ion battery,
             Street Light, Polycrystalline, Inverter, Home Ess

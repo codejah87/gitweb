@@ -15,7 +15,7 @@ const App = () => {
   
      <Navbar/>
      
-   <div className='w-full px-5 sm:px-8 xl:px-29'>
+   <div className='w-full'>
        <Routes>
          <Route path='/' element={<Home/>}/>
          <Route path='/service' element={<Service/>}/>

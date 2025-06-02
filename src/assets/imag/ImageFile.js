@@ -20,7 +20,8 @@ import locationImg from './location.png'
 import hero3 from './hero3.jpeg'
 import hero4 from './her04.jpeg'
 import hero5 from './hero5.jpeg'
-
+import jj from './jj.jpg'
+import logomain from './logomain.png'
 
 export const assert = {
         hero1,
@@ -44,6 +45,8 @@ export const assert = {
         hero3,
         hero4,
         hero5,
+        jj,
+        logomain
 }
 
 import africeLogo from './africell.png'

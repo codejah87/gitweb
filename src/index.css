@@ -47,10 +47,12 @@ a{
 }
 
 section{
-    padding-top:8rem; 
+    padding:8rem 7%; 
     padding-bottom: 3rem;
    
 }
+
+
 
 
 .hero-con2{
@@ -60,12 +62,60 @@ section{
 }
 
 .hero-bg{
-    background: url(./assets/imag/hero-bg2.jpeg);
+     animation: image 40s ease infinite;
     object-fit: cover;
     background-position: center;
     background-size: cover;
+    object-fit: cover;
+     padding:8rem 4%; 
 }
 
+@keyframes image {
+    0%{
+           background: url(./assets/imag/slide/Get.png);
+    filter: brightness(85%);
+           
+           object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    }
+    20%{
+        background: url(./assets/imag/slide/Get.png);
+    filter: brightness(85%);
+
+        object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    }
+    40%{
+        background: url(./assets/imag/slide/sl1.jpg);
+           filter: brightness(85%);
+object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    }
+    60%{
+        background: url(./assets/imag/slide/sl2.jpg);
+    filter: brightness(85%);
+        object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    }
+    80%{
+        background: url(./assets/imag/slide/sl3.jpg);
+    filter: brightness(85%);
+        object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    }
+    100%{
+        background: url(./assets/imag/slide/sl4.jpg);
+    filter: brightness(85%);
+        object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    }
+}
 
 .hero-con{
  display: grid;
@@ -80,6 +130,7 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     mix-blend-mode: darken;
+    padding: 6rem 0 3rem;
    
 }
 
@@ -160,24 +211,23 @@ section{
 }
 
 .btn{
-    padding: 15px 35px;
+    padding: 16px 40px;  
     margin-top: 20px;
-    background:linear-gradient(45deg, orange,white,orange);
+    background:white;
     font-size: 17px;
-    border-radius:50px;
-    color: #333;
+    color: black;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+    transition:.5s ease-in-out;
 }
 
 .btn:hover{
-    background:linear-gradient(75deg, orange,white,orange);
-    color: #333;
+    background:rgb(39, 38, 38);
+    color: white;
 }
 
 .scrollAnimate{
     animation: scroll 40s linear infinite;
-    width: 1000px;
+    width: 1300px;
 }
 
 @keyframes scroll {
