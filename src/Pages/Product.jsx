@@ -30,7 +30,7 @@ const Product = () => {
     <div className=' mx-auto text-center h-auto prod rounded-2xl flex flex-col  items-center justify-center  bg-cover bg-center)]'>
       <h1 className='text-4xl sm:text-7xl text-amber-500 font-bold pop backdrop-blur-[1px] p-3'>Get your</h1>
      <h1 className=' text-7xl md:text-8xl font-bold mt-1 text-white backdrop-blur-[1px] p-3'>Powerful Solar Panel </h1>
-      <h3 className='text-4xl sm:text-4xl   lg:text-5xl font-bold mt- text-slate-100 pop backdrop-blur-[1px] p-3'x>Type <span ref={el}> </span></h3>
+      <h3 className='text-6xl sm:text-4xl   lg:text-5xl font-bold mt- text-slate-100 pop backdrop-blur-[1px] p-3'x><span ref={el}> </span></h3>
     </div>
     <section>
 

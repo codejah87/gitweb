@@ -22,6 +22,8 @@ import hero4 from './her04.jpeg'
 import hero5 from './hero5.jpeg'
 import jj from './jj.jpg'
 import logomain from './logomain.png'
+import logotrans from './logotrans.png'
+import inv1 from './inv1r.png'
 
 export const assert = {
         hero1,
@@ -46,7 +48,9 @@ export const assert = {
         hero4,
         hero5,
         jj,
-        logomain
+        logomain,
+        logotrans,
+        inv1
 }
 
 import africeLogo from './africell.png'
@@ -54,6 +58,7 @@ import felicityLogo from './felilogo.png'
 import cworthLogo from './cworthLogo.jpeg'
 import bluLogo from './blue.jpeg'
 import sukamLogo1 from './sukamlogo.jpeg'
+import { useNavigate } from 'react-router';
 
 
 
