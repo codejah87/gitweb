@@ -39,7 +39,7 @@ const Hero = () => {
                         <h3 className='text-[19px] text-gray-700 text-left'>Your Solar Power Solution</h3>
                     </div>
                <div className='w-[350px] p-5 flex items-center bg-indigo-200 rounded-lg shadow-xl hover:shadow-1xl transition border-white gap-3 bg-[var(--b-c)]   '>
-                        <img src={assertImage.inv1} alt="" className='w-20' />
+                        <img src={assert.inv1r} alt="" className='w-20' />
                         <h3 className='text-[19px] text-gray-700 text-left'>SuKam solar inverter </h3>
                     </div>
               </div>
