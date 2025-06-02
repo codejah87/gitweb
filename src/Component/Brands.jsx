@@ -15,8 +15,7 @@ const Brands = () => {
         Explore Our Brands
       </h1>
       <p className="text-sm text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        possimus?
+        Hakuna matata energy ltd based on this brands, explore our original products.
       </p>
       </motion.div>
 
