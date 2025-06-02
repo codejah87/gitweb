@@ -87,7 +87,7 @@ section{
     background-size: cover;
     }
     40%{
-        background: url(./assets/imag/slide/sl1.jpg);
+        background: url(./assets/imag/slide/sl4.jpg);
            filter: brightness(85%);
 object-fit: cover;
     background-position: center;
@@ -120,7 +120,6 @@ object-fit: cover;
  display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 100%;
-
 }
 
 .prod{
