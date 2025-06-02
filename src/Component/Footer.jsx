@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='bg-blue-50 w-full'>      
     <div className='  flex flex-col sm:grid grid-cols-[3fr_1fr_2fr] gap-14 pt-7 px-[3vw] mt-20 mb-[1rem] text-sm'>
       <div>
-        <img src={assert.logo} className="mb- w-32"alt="" />
+        <img src={assert.logotrans} className="mb- w-42"alt="" />
         <p className='w-full text-[17px] md:w-2/3 text-gray-600'>Get all kind of solar system technology to unleash electricity bills and embrace a clean energy with 24/7 access to healthy energy  </p>
          <div className='mt-7 flex justify-start items-start flex-col gap-3'>
             <h1 className='text-2xl text-black font-semibold'>Social Medial</h1>

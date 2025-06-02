@@ -79,7 +79,7 @@ section{
     background-size: cover;
     }
     20%{
-        background: url(./assets/imag/slide/Get.png);
+        background: url(./assets/imag/slide/light2.jpg);
     filter: brightness(85%);
 
         object-fit: cover;
@@ -94,7 +94,7 @@ object-fit: cover;
     background-size: cover;
     }
     60%{
-        background: url(./assets/imag/slide/sl2.jpg);
+        background: url(./assets/imag/slide/light.jpg);
     filter: brightness(85%);
         object-fit: cover;
     background-position: center;
@@ -108,7 +108,7 @@ object-fit: cover;
     background-size: cover;
     }
     100%{
-        background: url(./assets/imag/slide/sl4.jpg);
+        background: url(./assets/imag/slide/k.jpg);
     filter: brightness(85%);
         object-fit: cover;
     background-position: center;
