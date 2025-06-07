@@ -18,7 +18,7 @@ const Brands = () => {
       <p className="text-sm text-center">
         Hakuna matata energy ltd based on this brands, explore our original products.
       </p>
-      </motion.div> nk nk nk nk nk nk nk nk,
+      </motion.div> 
 
       <motion.div
       initial={{opacity:0, y:100}}
