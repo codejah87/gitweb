@@ -24,6 +24,8 @@ import jj from './jj.jpg'
 import logomain from './logomain.png'
 import logotrans from './logotrans.png'
 import inv1r from './inv1r.png'
+import inve4 from './inver44.jpeg'
+
 
 export const assert = {
         hero1,
@@ -50,7 +52,9 @@ export const assert = {
         jj,
         logomain,
         logotrans,
-        inv1r
+        inv1r,
+        inve4,
+       
 }
 
 import africeLogo from './africell.png'

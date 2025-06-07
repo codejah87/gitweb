@@ -68,6 +68,7 @@ section{
     background-size: cover;
     object-fit: cover;
      padding:8rem 4%; 
+
 }
 
 @keyframes image {
@@ -101,7 +102,7 @@ object-fit: cover;
     background-size: cover;
     }
     80%{
-        background: url(./assets/imag/slide/sl3.jpg);
+        background: url(./assets/imag/slide/alll.jpeg);
     filter: brightness(85%);
         object-fit: cover;
     background-position: center;

@@ -1,6 +1,7 @@
 import React from "react";
 import { assert } from "../assets/imag/ImageFile";
 import {motion } from 'framer-motion'
+import { assertImage } from "../assets/imag/product-img/product";
 
 const Brands = () => {
   return (
@@ -17,7 +18,7 @@ const Brands = () => {
       <p className="text-sm text-center">
         Hakuna matata energy ltd based on this brands, explore our original products.
       </p>
-      </motion.div>
+      </motion.div> nk nk nk nk nk nk nk nk,
 
       <motion.div
       initial={{opacity:0, y:100}}
@@ -28,7 +29,7 @@ const Brands = () => {
         
         className="py-4 px-5 bg-white shadow-md border border-slate-200 rounded-md ">
           <img
-            src={assert.battery1}
+            src={assertImage.sss}
             alt=""
             className="h-50 w-full rounded-2xl mb-4"
           />
@@ -92,8 +93,6 @@ const Brands = () => {
             Street Light, Polycrystalline, Inverter, Home Ess
           </span>
         </div>
-
-
 
          <div className="py-4 px-5 w-full bg-white shadow-md border border-slate-200 rounded-md ">
           <img

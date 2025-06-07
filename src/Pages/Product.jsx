@@ -62,6 +62,7 @@ className='w-full md:w-[40%] h-100'>
       
      </div>
    <ProductItems/>
+   <h1 className='text-2xl md:text-3xl text-gray-400 mt-5 text-center'>Get Any Products of your Choice from Hakuna Matata Energy-Tech LTD Office</h1>
    <Warant/>
     </section>
 

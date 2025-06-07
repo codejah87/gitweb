@@ -57,7 +57,7 @@ const Servicecom = () => {
 
              <div className=' border-[1px] border-gray-200 shadow-md rounded-2xl overflow-hidden '>
                 <div className='overflow-hidden w-full h-50'>
-                    <img src={assertImage.inv1} alt="" className='w-full h-full' />
+                    <img src={assert.inve4} alt="" className='w-full h-full' />
 
                 </div>
                 <div className='px-3 mt-4 py-5 text-center'>

@@ -49,6 +49,19 @@ import felbattery from './fb3.jpeg'
 
 import lithum from './lithuim2.jpeg';
 import lithum2 from './lithum1.jpeg';
+
+
+import inver11 from './inv11.jpeg'
+import inve2 from './inve22.jpeg'
+import inve3 from './inver33.jpeg'
+import inve5 from './inver55.jpeg'
+import inve6 from './inver66.jpeg'
+import lll from './llll.jpeg'
+import sss from './ssss.jpeg'
+
+
+import wwww from './wwww.jpeg'
+
 export const assertImage  = {
     solarLight1,
     solarLight2,
@@ -86,7 +99,15 @@ export const assertImage  = {
     fli2,
     felbattery,
     lithum,
-    lithum2
+    lithum2,
+     inver11,
+        inve2,
+        inve3,
+        lll,
+        inve5,
+        inve6,
+        sss,
+        wwww
 
 
 }
@@ -113,6 +134,14 @@ export const productsList = [
       des1: "Enhanced grid design to Support heavy loads.",
       des2: "Perfect for emergency power supply.",
     },
+    {
+      id: 2,
+      name: 'Big Conqueror Tall Tubular Battery',
+      image: sss,
+      votes :  "220Ah/12v 230Ah/12v",
+      des1: "Enhanced grid design to Support heavy loads.",
+      des2: "Perfect for emergency power supply.",
+    },
        
     {
       id: 3,
@@ -125,7 +154,7 @@ export const productsList = [
     {
       id: 4,
       name: 'Su-Kam Solar Inverter',
-      image: inv1,
+      image: inve2,
       votes :  "10KVA / 96V",
       des1: "Powerful Charging even during very low Voltage",
       des2: "Load startup 300% of rated capacity",
@@ -133,7 +162,7 @@ export const productsList = [
     {
       id: 5,
       name: 'Su-Kam Solar Inverter',
-      image: inv4,
+      image: inver11,
       votes :  "1.6KVA / 24V",
       des1: "Powerful Charging even during very low Voltage",
       des2: "Intelligent Load sharing",
@@ -141,7 +170,7 @@ export const productsList = [
      {
       id: 6,
       name: 'Su-Kam Solar Inverter',
-      image: inv3,
+      image: inve6,
       votes :  "6.6KVA / 48V",
       des1: "Powerful Charging even during very low Voltage",
       des2: "Intelligent Load sharing",
@@ -149,7 +178,7 @@ export const productsList = [
      {
       id: 7,
       name: ' Sa-kam Solar Inverter',
-      image: inv2,
+      image: inve5,
       votes :  "1.6KVA / 12V",
       des1: "Powerful Charging even during very low Voltage",
       des2: "Intelligent Load sharing",
@@ -218,7 +247,7 @@ export const productsList = [
       name: ' Solar Water Heater',
       image: w2,
       votes :  " 220-240 volts AC,",
-      des1: "Heat water to rthe actual boling point",
+      des1: "Heat water to the actual boling point",
       des2: "These panels have a high-power density",
     },
     
@@ -246,4 +275,21 @@ export const productsList = [
       des1: "Highly efficient battery",
       des2: "These panels have a high-power density",
     },
+     {
+      id: 19,
+      name: 'Solar Flood Light',
+      image: lll,
+      votes :  "Led 1000 watts solar flood light",
+      des1: "converting sunlight into electrical energy ",
+      des2: "Last long life",
+    },
+           {
+      id: 20,
+      name: ' Solar Water Heater',
+      image: wwww,
+      votes :  " 220-240 volts AC,",
+      des1: "Heat water to the actual boling point",
+      des2: "These panels have a high-power density",
+    },
+    
   ]
