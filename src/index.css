@@ -56,32 +56,56 @@ section{
 
 
 .hero-con2{
- display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+ /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); */
+    columns: 290px;
     width: 100%;
 }
 
 .hero-bg{
-     animation: image 40s ease infinite;
+     position: relative;
     object-fit: cover;
     background-position: center;
     background-size: cover;
     object-fit: cover;
      padding:8rem 4%; 
+     z-index: 0;
 
+}
+
+.hero-bg::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: image 40s ease infinite;
+    z-index: -1;
+}
+
+.hero-bg::after{
+    position: absolute;
+    top: 0;
+    left:0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.432);
+    z-index: -1;
 }
 
 @keyframes image {
     0%{
            background: url(./assets/imag/slide/Get.png);
-    filter: brightness(85%);
+    filter: brightness(90%);
            object-fit: cover;
     background-position: center;
     background-size: cover;
     }
     20%{
         background: url(./assets/imag/slide/light2.jpg);
-    filter: brightness(85%);
+    filter: brightness(90%);
 
         object-fit: cover;
     background-position: center;
@@ -89,28 +113,28 @@ section{
     }
     40%{
         background: url(./assets/imag/slide/sl4.jpg);
-           filter: brightness(85%);
+           filter: brightness(90%);
 object-fit: cover;
     background-position: center;
     background-size: cover;
     }
     60%{
         background: url(./assets/imag/slide/light.jpg);
-    filter: brightness(85%);
+    filter: brightness(90%);
         object-fit: cover;
     background-position: center;
     background-size: cover;
     }
     80%{
         background: url(./assets/imag/slide/alll.jpeg);
-    filter: brightness(85%);
+    filter: brightness(90%);
         object-fit: cover;
     background-position: center;
     background-size: cover;
     }
     100%{
         background: url(./assets/imag/slide/k.jpg);
-    filter: brightness(85%);
+    filter: brightness(90%);
         object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -147,19 +171,19 @@ object-fit: cover;
     bottom: 30px;
     right: 20px;
     z-index: 100;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: 1.7px solid green;
+    padding:  0 10px;
+    background: #fff;
+    gap: 8px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 0px black;
 }
 
-.whatapp a{
+.whatapp i{
      color: green;
-    font-size: 40px;
 }
 @media (max-width:1000px) {
     
@@ -192,10 +216,6 @@ object-fit: cover;
     z-index: 99;
 }
 
-.whatapp{
-    width: 45px;
-    height: 45px;
-}
 
 .whatapp a{
     font-size: 30px;
@@ -210,13 +230,14 @@ object-fit: cover;
 }
 
 .btn{
-    padding: 14px 27px;  
+    padding: 15px 27px;  
     margin-top: 20px;
     background:white;
     font-size: 17px;
     color: black;
     cursor: pointer;
     transition:.5s ease-in-out;
+    border-radius: 7px;
 }
 
 .btn:hover{
@@ -236,6 +257,15 @@ object-fit: cover;
       100%{
         transform:translateX(-100%)
     }
+}
+
+@media (max-width:695px) {
+    .hero-con2{
+ /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); */
+    columns: 210px;
+    }
+
 }
 
 @import "tailwindcss";

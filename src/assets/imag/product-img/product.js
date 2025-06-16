@@ -291,5 +291,4 @@ export const productsList = [
       des1: "Heat water to the actual boling point",
       des2: "These panels have a high-power density",
     },
-    
   ]

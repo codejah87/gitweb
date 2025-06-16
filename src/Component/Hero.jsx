@@ -20,25 +20,25 @@ const Hero = () => {
         <div className='overflow-x-hidden w-full px-3 mt-10 md:mt-20'>
 
               <div className='scrollAnimate flex justify-between items-center gap-6 '>
-                    <div className='w-[350px] p-6 flex items-center rounded-lg transition border-white gap-3  bg-[var(--b-c)]'>
+                    <div className='w-[350px] p-6 flex items-center  transition border-white gap-3  bg-[var(--b-c)]'>
                         <img src={assert.battery1} alt="" className='w-20' />
                         <h3 className='text-[19px] text-gray-700 text-left'>Powerful Lithium ion battery</h3>
                     </div>
 
                    <div
                    
-                   className='w-[400px] p-6 flex items-center rounded-lg   gap-3  bg-indigo-200'>
+                   className='w-[400px] p-6 flex items-center gap-3  bg-indigo-200'>
                         <img src={assert.light1} alt="" className='w-20' />
                         <h3 className='text-[19px] text-gray-700 text-left'>Enjoy the brightness of solar street light</h3>
                     </div>
 
                       <div
 
-                      className='w-[370px] py-7 px-6 flex items-center  rounded-lg shadow-xl hover:shadow-1xl transition border-white gap-3 bg-[var(--b-c)]   '>
+                      className='w-[370px] py-7 px-6 flex items-center  shadow-xl hover:shadow-1xl transition border-white gap-3 bg-[var(--b-c)]   '>
                         <img src={assert.solar} alt="" className='w-20' />
                         <h3 className='text-[19px] text-gray-700 text-left'>Your Solar Power Solution</h3>
                     </div>
-               <div className='w-[350px] p-5 flex items-center bg-indigo-200 rounded-lg shadow-xl hover:shadow-1xl transition border-white gap-3 bg-[var(--b-c)]   '>
+               <div className='w-[350px] p-5 flex items-center bg-indigo-200 shadow-xl hover:shadow-1xl transition border-white gap-3 bg-[var(--b-c)]   '>
                         <img src={assert.inv1r} alt="" className='w-20' />
                         <h3 className='text-[19px] text-gray-700 text-left'>SuKam solar inverter </h3>
                     </div>

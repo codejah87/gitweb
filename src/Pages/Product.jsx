@@ -39,7 +39,7 @@ const Product = () => {
         <motion.div
         initial={{opacity:0, x:-100}}
         whileInView={{opacity:1, x:0}}
-        transition={{duration: 1.5}}
+        trans   ition={{duration: 1.5}}
          className='w-full md:w-[60%] '>
       <Title head1={'Explore Our'} head2={'Products'} /> 
           <p className='text-gray-600 pop text-[15px] md:text-[18px] mt-4 '><b>Why Choose Hakuna Matata Energy LTD? </b> 
@@ -65,7 +65,6 @@ className='w-full md:w-[40%] h-100'>
    <h1 className='text-2xl md:text-3xl text-gray-400 mt-5 text-center'>Get Any Products of your Choice from Hakuna Matata Energy-Tech LTD Office</h1>
     </section>
    <Warant/>
-
   </div>
   )
 }

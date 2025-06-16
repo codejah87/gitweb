@@ -6,12 +6,12 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false); // Use boolean for clearer state management
 
   // Define common Tailwind/CSS classes for all NavLink items
-  const baseNavLinkClass = "text-[var(--t-c)] text-[18px] hover:text-[var(--m-c)] transition";
+  const baseNavLinkClass = "text-[var(--t-c)] text-[19px] hover:text-[var(--m-c)] transition";
   // Define the active class to highlight the text
   const activeNavLinkClass = "text-indigo-600"; // Example: vibrant blue text and bold
 
   return (
-    <div className="flex bg-white items-center h-18 lg:py-5 z-100 justify-between fixed top-0 left-0 md:w-full w-full px-5 sm:px-8 xl:px-29">
+    <div className="flex bg-white items-center h-25 lg:py-5 z-100 justify-between fixed top-0 left-0 md:w-full w-full px-5 sm:px-8 xl:px-29">
       {/* Logo Section */}
       <div className="relative w-60">
         <Link to="/">
