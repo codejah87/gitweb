@@ -31,7 +31,7 @@ const Brands = () => {
           <img
             src={assertImage.sss}
             alt=""
-            className="h-50 w-full rounded-2xl mb-4"
+            className=" w-full rounded-2xl mb-4"
           />
           <div className="flex items-center justify-between w-full mb-4">
             <i
@@ -54,7 +54,7 @@ const Brands = () => {
 
 
         <div className="py-4 px-5 bg-white shadow-md border border-slate-200 rounded-md ">
-          <img src={assert.felicity} alt="" className="h-50 w-full rounded-2xl mb-4" />
+          <img src={assert.felicity} alt="" className=" w-full rounded-2xl mb-4" />
           <div className="flex items-center justify-between w-full mb-4">
             <i
               class="ri-lightbulb-flash-line text-[var(--m-c)] font-bold text-2xl p-3 border rounded-full inline-flex w-10 h-10 items-center justify-center border-[var(--m-c)]"
@@ -74,7 +74,7 @@ const Brands = () => {
           <img
             src={assert.cworth}
             alt=""
-            className="h-50 w-full rounded-2xl mb-4"
+            className=" w-full rounded-2xl mb-4"
           />
           <div className="flex items-center justify-between w-full mb-4">
             <i
@@ -123,7 +123,7 @@ const Brands = () => {
           <img
             src={assert.afri}
             alt=""
-            className="h-50 w-full mb-4"
+            className=" w-full mb-4"
           />
           <div className="flex items-center justify-between w-full mb-4">
             <i class="ri-lightbulb-flash-line text-[var(--m-c)] font-bold text-2xl p-3 border rounded-full inline-flex w-10 h-10 items-center justify-center border-[var(--m-c)]" ></i>
