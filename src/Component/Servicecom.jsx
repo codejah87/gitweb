@@ -19,8 +19,8 @@ const Servicecom = () => {
       className='mt-11 hero-con gap-7'>
  
             <div className=' shadow-md  border-[1px] border-gray-200 rounded-2xl overflow-hidden '>
-                <div className='overflow-hidden w-full h-50'>
-                    <img src={assert.worker1} alt="" className='w-full  h-full object-fill'/>
+                <div className='overflow-hidden w-full h-70'>
+                    <img src={assert.worker1} alt="" className='w-full  h-full'/>
 
                 </div>
                 <div className='px-3 mt-4 py-5 text-center'>
@@ -38,8 +38,8 @@ const Servicecom = () => {
 
 
              <div className=' border-[1px] border-gray-200 shadow-md rounded-2xl overflow-hidden '>
-                <div className='overflow-hidden w-full h-50'>
-                    <img src={assertImage.b1} alt="" className='w-full h-full object-center'/>
+                <div className='overflow-hidden w-full h-70 overflow-hidden'>
+                    <img src={assertImage.b1} alt="" className='w-full  object-center'/>
 
                 </div>
                 <div className='px-3 mt-4 py-5 text-center'>
@@ -56,8 +56,8 @@ const Servicecom = () => {
             </div>
 
              <div className=' border-[1px] border-gray-200 shadow-md rounded-2xl overflow-hidden '>
-                <div className='overflow-hidden w-full h-50'>
-                    <img src={assert.inve4} alt="" className='w-full h-full' />
+                <div className='overflow-hidden w-full h-70'>
+                    <img src={assert.inve4} alt="" className='w-full ' />
 
                 </div>
                 <div className='px-3 mt-4 py-5 text-center'>
@@ -75,7 +75,7 @@ const Servicecom = () => {
 
 
               <div className=' border-[1px] border-gray-200 shadow-md rounded-2xl overflow-hidden '>
-                <div className='overflow-hidden w-full h-50'>
+                <div className='overflow-hidden w-full h-70'>
                     <img src={assertImage.solarLight2} alt="" className='w-full h-full' />
 
                 </div>
@@ -93,8 +93,8 @@ const Servicecom = () => {
             </div>
             
               <div className=' border-[1px] border-gray-200 shadow-md rounded-2xl overflow-hidden '>
-                <div className='overflow-hidden w-full h-50'>
-                    <img src={assertImage.w2} alt="" className='w-full h-full' />
+                <div className='overflow-hidden w-full '>
+                    <img src={assertImage.w2} alt="" className='w-full' />
 
                 </div>
 
@@ -116,8 +116,9 @@ const Servicecom = () => {
 
 
                  <div className=' border-[1px] border-gray-200 shadow-md rounded-2xl overflow-hidden '>
-                <div className='overflow-hidden w-full h-50'>
-                    <img src={assertImage.p1} alt="" className='w-full h-full' />
+                <div className='overflow-hidden w-full h-70 
+                '>
+                    <img src={assertImage.p1} alt="" className='w-full' />
 
                 </div>
                 <div className='px-3 mt-4 py-5 text-center'>
