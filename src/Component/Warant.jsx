@@ -11,9 +11,9 @@ const Warant = () => {
                 transition={{duration: 1.5}}
        className='w-full p-8 bg-blue-400 rounded-2xl  boreder '>
             <h1 className='text-6xl pop font-semibold text-white'>Get Your Best Offer in Hakuna Matata</h1>
-            <p className='text-[19px] mt-8'>Rest assured, your purchase is protected by a comprehensive guarantee for a minimum of two years, ensuring your peace of mind and our commitment to quality.</p>
+            <p className='text-[19px] mt-8 text-slate-50'>Rest assured, your purchase is protected by a comprehensive guarantee for a minimum of two years, ensuring your peace of mind and our commitment to quality.</p>
             <Link to='/contact'>
-              <button className='mt-8 border border-white  py-3 text-white cursor-pointer  hover:-translate-y-1 transition px-10 text-1xl' >Contact Us</button>
+              <button className='mt-8 border border-white  py-4 text-black cursor-pointer  hover:-translate-y-1 transition w-full bg-white rounded-full md:px-10 md:w-fit text-1xl' >Contact Us</button>
             </Link>
        </motion.div>
 

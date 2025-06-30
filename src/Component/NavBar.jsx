@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* Mobile Menu Open Icon (Hamburger) */}
       <i
         onClick={() => setNavOpen(true)}
-        className="ri-menu-fold-line text-slate-800 font-semibold border-[2px] border-indigo-300 p-2 rounded-md text-[21px] block lg:hidden"
+        className="ri-menu-fold-line text-slate-800 font-semibold border-[2px] border-gray-300 p-2 rounded-md text-[21px] block lg:hidden"
       ></i>
 
       {/* Mobile Menu Overlay/Layer */}
